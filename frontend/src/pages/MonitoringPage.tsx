@@ -217,7 +217,7 @@ export const MonitoringPage: React.FC<MonitoringPageProps> = ({ onSelectShipment
       {/* Shipments Table with Interactive Sorting */}
       <div className="bg-slate-900/80 border border-slate-800 rounded-xl overflow-hidden shadow-sm">
         <div className="overflow-x-auto">
-          <table className="w-full text-left text-xs">
+          <table className="w-full text-left text-xs min-w-[780px]">
             <thead className="bg-slate-950/80 border-b border-slate-800 text-slate-400 font-semibold uppercase tracking-wider text-[11px]">
               <tr>
                 <th className="py-3.5 px-4 cursor-pointer hover:text-white" onClick={() => handleSort('shipment_id')}>

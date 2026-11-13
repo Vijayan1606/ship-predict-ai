@@ -121,8 +121,8 @@ export const ShipmentDetailPage: React.FC<ShipmentDetailPageProps> = ({ shipment
       </div>
 
       {/* Shipment Header Summary Card */}
-      <div className="bg-slate-900/90 border border-slate-800 rounded-xl p-5 shadow-sm">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div className="bg-slate-900/90 border border-slate-800 rounded-xl p-4 sm:p-5 shadow-sm">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
           {/* Origin & Destination */}
           <div className="space-y-1">
             <span className="text-[11px] font-medium text-slate-400 uppercase tracking-wider">Voyage Corridor</span>
@@ -207,10 +207,14 @@ export const ShipmentDetailPage: React.FC<ShipmentDetailPageProps> = ({ shipment
                 </linearGradient>
               </defs>
               <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
-              <XAxis dataKey="full_name" tick={{ fill: '#94a3b8', fontSize: 10 }} />
+              <XAxis 
+                dataKey="stage" 
+                tick={{ fill: '#94a3b8', fontSize: 11 }} 
+              />
               <YAxis tick={{ fill: '#94a3b8', fontSize: 11 }} />
               <Tooltip 
                 contentStyle={{ backgroundColor: '#0f172a', borderColor: '#334155', borderRadius: '8px', fontSize: '12px' }}
+                labelFormatter={(_, payload) => payload?.[0]?.payload?.full_name || ''}
                 formatter={(val: any, name: any) => [
                   `${val} hours`,
                   name === 'cumulative' ? 'Cumulative Delay' : name
@@ -278,7 +282,7 @@ export const ShipmentDetailPage: React.FC<ShipmentDetailPageProps> = ({ shipment
                   </div>
 
                   {/* Stage Metrics with Cumulative Delay */}
-                  <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 text-xs bg-slate-900/60 px-3 py-2 rounded border border-slate-800/60">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-3 text-xs bg-slate-900/60 p-2.5 sm:px-3 sm:py-2 rounded border border-slate-800/60">
                     <div>
                       <span className="text-slate-500 block">Sched Duration</span>
                       <span className="font-medium text-slate-200">{event.scheduled_duration_hours}h</span>

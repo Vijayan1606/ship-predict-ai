@@ -105,7 +105,7 @@ export const ModelPerformancePage: React.FC = () => {
         </div>
 
         <div className="overflow-x-auto">
-          <table className="w-full text-left text-xs">
+          <table className="w-full text-left text-xs min-w-[640px]">
             <thead className="bg-slate-950/80 border-b border-slate-800 text-slate-400 font-semibold uppercase tracking-wider text-[11px]">
               <tr>
                 <th className="py-3 px-4">Model Architecture</th>
@@ -221,7 +221,7 @@ export const ModelPerformancePage: React.FC = () => {
               <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider block mb-1.5">
                 Per-Class Performance Metrics
               </span>
-              <table className="w-full text-left text-xs border border-slate-800">
+              <table className="w-full text-left text-xs border border-slate-800 min-w-[380px]">
                 <thead className="bg-slate-950 text-slate-400 text-[10px] uppercase">
                   <tr>
                     <th className="p-2 border border-slate-800">Severity Tier</th>
@@ -261,7 +261,7 @@ export const ModelPerformancePage: React.FC = () => {
             <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider block mb-1.5">
               Confusion Matrix (Actual Rows &times; Predicted Columns)
             </span>
-            <table className="w-full text-center text-xs border border-slate-800">
+            <table className="w-full text-center text-xs border border-slate-800 min-w-[340px]">
               <thead className="bg-slate-950 text-slate-400 text-[10px]">
                 <tr>
                   <th className="p-1.5 border border-slate-800 text-left">Actual \ Pred</th>

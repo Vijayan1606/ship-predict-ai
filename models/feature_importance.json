@@ -1,0 +1,110 @@
+[
+  {
+    "feature": "interaction_remaining_congestion",
+    "importance": 0.1849
+  },
+  {
+    "feature": "cargo_category_Chemicals & Dangerous Goods",
+    "importance": 0.0991
+  },
+  {
+    "feature": "port_congestion_index",
+    "importance": 0.0958
+  },
+  {
+    "feature": "weather_severity_index",
+    "importance": 0.0884
+  },
+  {
+    "feature": "cargo_category_Electronics & High-Tech",
+    "importance": 0.0724
+  },
+  {
+    "feature": "wind_speed_kmh",
+    "importance": 0.0707
+  },
+  {
+    "feature": "interaction_congestion_delay",
+    "importance": 0.0607
+  },
+  {
+    "feature": "current_stage_order",
+    "importance": 0.0468
+  },
+  {
+    "feature": "remaining_stages_count",
+    "importance": 0.0468
+  },
+  {
+    "feature": "cargo_category_Consumer Goods & Retail",
+    "importance": 0.041
+  },
+  {
+    "feature": "cumulative_delay_hours",
+    "importance": 0.0257
+  },
+  {
+    "feature": "precipitation_mm",
+    "importance": 0.0257
+  },
+  {
+    "feature": "interaction_weather_distance",
+    "importance": 0.0213
+  },
+  {
+    "feature": "cargo_category_Refrigerated Perishables (Reefer)",
+    "importance": 0.0206
+  },
+  {
+    "feature": "vessel_type_ULCV (18000+ TEU)",
+    "importance": 0.0175
+  },
+  {
+    "feature": "initial_delay_hours",
+    "importance": 0.0154
+  },
+  {
+    "feature": "departure_hour",
+    "importance": 0.0152
+  },
+  {
+    "feature": "has_missing_intermediate_events",
+    "importance": 0.0144
+  },
+  {
+    "feature": "vessel_type_Feeder (<3000 TEU)",
+    "importance": 0.0138
+  },
+  {
+    "feature": "vessel_type_Post-Panamax (5000-9999 TEU)",
+    "importance": 0.0064
+  },
+  {
+    "feature": "cargo_category_Automotive Parts & Machinery",
+    "importance": 0.0062
+  },
+  {
+    "feature": "route_distance_nm",
+    "importance": 0.0039
+  },
+  {
+    "feature": "vessel_type_Neo-Panamax (10000-14999 TEU)",
+    "importance": 0.0027
+  },
+  {
+    "feature": "departure_month",
+    "importance": 0.0026
+  },
+  {
+    "feature": "total_recovered_hours",
+    "importance": 0.0015
+  },
+  {
+    "feature": "departure_day_of_week",
+    "importance": 0.0004
+  },
+  {
+    "feature": "transport_mode_Ocean Freight",
+    "importance": 0.0
+  }
+]

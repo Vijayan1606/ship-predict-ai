@@ -1,0 +1,147 @@
+{
+  "model_version": "v1.2.0",
+  "trained_timestamp": "2026-11-13T09:41:28.197871+00:00",
+  "best_model_name": "Linear Regression (Baseline)",
+  "train_samples": 1200,
+  "test_samples": 300,
+  "regression_metrics": {
+    "Linear Regression (Baseline)": {
+      "mae": 8.632,
+      "rmse": 12.889,
+      "r2": 0.3119,
+      "median_absolute_error": 5.686
+    },
+    "Random Forest Regressor": {
+      "mae": 10.115,
+      "rmse": 14.08,
+      "r2": 0.1788,
+      "median_absolute_error": 6.889
+    },
+    "Gradient Boosting Regressor": {
+      "mae": 9.936,
+      "rmse": 14.251,
+      "r2": 0.1587,
+      "median_absolute_error": 6.203
+    },
+    "HistGradientBoosting Regressor": {
+      "mae": 9.22,
+      "rmse": 12.836,
+      "r2": 0.3175,
+      "median_absolute_error": 7.163
+    }
+  },
+  "best_regression_metrics": {
+    "mae": 8.632,
+    "rmse": 12.889,
+    "r2": 0.3119,
+    "median_absolute_error": 5.686
+  },
+  "classification_metrics": {
+    "accuracy": 0.7133,
+    "macro_f1": 0.7171,
+    "weighted_f1": 0.6914,
+    "labels": [
+      "On Time",
+      "Minor Delay",
+      "Moderate Delay",
+      "Severe Delay"
+    ],
+    "per_class_metrics": {
+      "On Time": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 1
+      },
+      "Minor Delay": {
+        "precision": 0.8333,
+        "recall": 0.3333,
+        "f1_score": 0.4762,
+        "support": 30
+      },
+      "Moderate Delay": {
+        "precision": 0.6726,
+        "recall": 0.9325,
+        "f1_score": 0.7815,
+        "support": 163
+      },
+      "Severe Delay": {
+        "precision": 0.8361,
+        "recall": 0.4811,
+        "f1_score": 0.6108,
+        "support": 106
+      }
+    },
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        20,
+        0
+      ],
+      [
+        0,
+        1,
+        152,
+        10
+      ],
+      [
+        0,
+        1,
+        54,
+        51
+      ]
+    ],
+    "classification_report": {
+      "Minor Delay": {
+        "precision": 0.8333333333333334,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.47619047619047616,
+        "support": 30.0
+      },
+      "Moderate Delay": {
+        "precision": 0.672566371681416,
+        "recall": 0.9325153374233128,
+        "f1-score": 0.781491002570694,
+        "support": 163.0
+      },
+      "On Time": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Severe Delay": {
+        "precision": 0.8360655737704918,
+        "recall": 0.4811320754716981,
+        "f1-score": 0.6107784431137725,
+        "support": 106.0
+      },
+      "accuracy": 0.7133333333333334,
+      "macro avg": {
+        "precision": 0.8354913196963103,
+        "recall": 0.6867451865570859,
+        "f1-score": 0.7171149804687357,
+        "support": 300.0
+      },
+      "weighted avg": {
+        "precision": 0.7475042313458098,
+        "recall": 0.7133333333333334,
+        "f1-score": 0.6913708755826576,
+        "support": 300.0
+      }
+    }
+  },
+  "delay_thresholds": {
+    "on_time_hours": "<= 0.0",
+    "minor_delay_hours": "0.0 < x <= 6.0",
+    "moderate_delay_hours": "6.0 < x <= 24.0",
+    "severe_delay_hours": "> 24.0"
+  }
+}

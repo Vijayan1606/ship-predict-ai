@@ -275,14 +275,6 @@ backend/tests/test_all.py::test_data_sources_api PASSED                  [100%]
 ```
 
 ---
-
-## Technical Report
-
-For in-depth analysis of the delay propagation calculus, feature sensitivity, scientific assumptions, predictive association vs. causality, and future enhancements, see:
-[`docs/TECHNICAL_REPORT.md`](file:///c:/Users/vijay/Downloads/ShipPredict%20AI%20%E2%80%93%20Intelligent%20Shipment%20ETA%20Prediction%20&%20Delay%20Propagation%20System/docs/TECHNICAL_REPORT.md).
-
----
-
 ## License
 
 This project was built for the Aiqon AI Internship technical assessment and is available under the MIT License.

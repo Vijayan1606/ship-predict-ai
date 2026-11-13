@@ -55,10 +55,8 @@ export const App: React.FC = () => {
 
       <footer className="border-t border-slate-900 bg-slate-950 py-6 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>ShipPredict AI &copy; 2024 &bull; Aiqon AI Internship Technical Take-Home Assignment</span>
+          <span>ShipPredict AI &copy; 2026</span>
           <div className="flex items-center gap-4 text-slate-400">
-            <span>FastAPI Backend</span>
-            <span>&bull;</span>
             <span>SHAP Explainability</span>
             <span>&bull;</span>
             <span>Open-Meteo Integration</span>

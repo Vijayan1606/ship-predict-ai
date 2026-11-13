@@ -16,16 +16,16 @@
     }
   },
   "USLAX_33.74_-118.27": {
-    "timestamp": 1794560654.5457566,
+    "timestamp": 1794565491.8640313,
     "data": {
       "port_code": "USLAX",
       "latitude": 33.7432,
       "longitude": -118.2673,
-      "temperature_c": 17.1,
-      "wind_speed_kmh": 8.1,
-      "wind_gusts_kmh": 10.8,
+      "temperature_c": 16.7,
+      "wind_speed_kmh": 4.7,
+      "wind_gusts_kmh": 15.5,
       "precipitation_mm": 0.0,
-      "weather_severity_index": 0.082,
+      "weather_severity_index": 0.067,
       "data_source": "live_open_meteo_api",
       "status": "success",
       "is_storm_condition": false
